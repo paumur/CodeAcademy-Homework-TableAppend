@@ -1,0 +1,27 @@
+.navWrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    background-color: $clr--nav-main;
+
+    :first-of-type {
+      display: flex;
+      align-items: baseline;
+    }
+
+    div {
+      margin: 0 3%;
+    }
+  }
+  .bi-table {
+    font-size: 1.5rem;
+    padding-right: 10px;
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <link rel="stylesheet" href="app/css/style.css">
+    <title>TableGenerator App</title>
+</head>
+<body>
+  <div class="navWrapper">
+    <nav>
+        <div>
+          <i class="bi bi-table"></i>
+          <h2>TableGenerator App</h2></div>
+        <div>
+          <p><p>Made by Paulius Murašovas</p></p>
+        </div>
+    </nav>
+  </div>
+<section>
+  <h1>Append Table</h1>
+  <div>
+    <div>
+      <div class="form-floating">
+      <input type="" class="form-control inputName" id="floatingInput" placeholder="Vardas">
+      </div>
+      <button type="button" class="btn btn-primary buttonAdd">Pridėti</button>
+    </div>
+    <div>
+      <div class="form-floating">
+      <input type="" class="form-control inputSurname" id="floatingInput" placeholder="Pavardė">
+      </div>
+      <button type="button" class="btn btn-primary buttonDeleteFirst">Ištrinti pirmą</button>
+    </div>
+      <div>
+      <div class="form-floating">
+      <input type="" class="form-control inputAge" id="floatingInput" placeholder="Amžius">
+      </div>
+      <button type="button" class="btn btn-primary buttonDeleteLast">Ištrinti paskutinį</button>
+    </div>
+  </div> 
+  <!-- Inputs and buttons -->
+</section>
+<!-- Input and buttons section -->
+<section>
+<table class="table table-striped table-dark">
+  <thead>
+    <tr>
+      <th scope="col">Vardas</th>
+      <th scope="col">Pavardė</th>
+      <th scope="col">Amžius</th>
+    </tr>
+  </thead>
+  <tbody id="tbody">
+    <tr>
+      <td>Jonas</td>
+      <td>Rimkus</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <td>Vestina</td>
+      <td>Petronytė</td>
+      <td>31</td>
+    </tr>
+    <tr>
+      <td>Marius</td>
+      <td>Dulinskas</td>
+      <td>23</td>
+    </tr>
+  </tbody>
+</table>
+</section>
+<script src="./index.js"></script>
+<div class="image"></div>
+</body>
+</html>
